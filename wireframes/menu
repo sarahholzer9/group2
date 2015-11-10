@@ -4,15 +4,88 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Page Title Goes Here</title>
-    <meta name="description" content="Page Description Goes Here">
+    <title>Menu</title>
+    <meta name="Menu" content="Menu">
   </head>
   <body>
     <header>Menu</header>
        <!-- The page content goes here -->
       <link href="style.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
 
-<h2>Daily Specials</h2>
-<p>Soup of the Day</p>
+      <h1>Specials</h1>
+        <h2>Soup of the Day</h2>
+        <h2>Chicken Avacado Salad or Sandwich</h2>
+          
+      <h1>Salads</h1>
+        <h2>Apple Chicken Pecan</h2>
+          <h3>Iceberg lettuce, tomatoes, onions, bacon, blue cheese crumbles, balsamic glaze, and your choice of dressing.</h3>
+        <h2>Chicken Avocado</h2>
+          <h3>Chopped Romaine & Spring Mix, tomatoes, onions, Asiago Cheese, Glazed Walnuts, Avocado & 6oz Chicken Breast tossed over choice of dressing.</h3>
+        <h2>Classic Caesar Salad</h2>
+          <h3>A crispy bed of romaine lettuce & croutons served with freshly grated parmesan cheese & Caesar dressing.</h3>
+        <h2>Buffalo Chicken Salad<h2>
+          <h3>Chopped Romaine, blue cheese crumble, celery, cucumbers, tomatoes, onions, tricolor tortilla chips, Chicken Tenders dipped in buffalo sauce, Choice of dressing.</h3>
+        <h2>Chicken Caesar Salad</h2>
+          <h3>A crispy bed of romaine lettuce & croutons served with freshly grated parmesan cheese & Caesar dressing,served with a 6 oz Chicken Breast. </h3>
+        <h2>Chicken Chopped Salad</h2>
+          <h3>Chopped romaine lettuce mixed w/ ditallini pasta, 6 oz chicken breast, bacon, tomato, red cabbage, gorgonzola cheese, green onion & tossed in choice of dressing.</h3>
+        <h2>California Chicken & Fruit</h2>
+          <h3>Chopped Romaine, Spring Mix, fresh vegetables,, cheddar cheese, glazed walnuts,strawberries,mandarin oranges,blueberries,pineapple chunks & 6 oz Chicken Breast tossed over poppyseed dressing.</h3>
+        <h2>Steakhouse Filet Salad</h2>
+          <h3>Chopped Romaine lettuce, tender grilled Filet Mignon tips, Asiago/Romano/Parmesan cheese, bacon, tomatoes, cucumber, & red onions tossed over choice of dressing.</h3>
+        <h2>Asian Chicken Wonton Salad</h2>
+          <h3>6 oz Breaded Chicken Breast, tossed with Copped Romaine, red peppers, red onions, sliced almonds, mandarin oranges, black sesame seeds, and crispy wontons, with a sesame oriental dressing!</h3>
+        <h2>Southwest BBQ Chicken</h2>
+          <h3>Ribbon romaine, 6 oz Spicy Chicken Breast lettuce,cheddar-jack cheese,black beans, corn & peppers,tomatoes with tortilla chips tossed over chipoltle ranch.</h3>
+        <h2>Breakfast Burrito Bowl</h2>
+          <h3>Choice of Plain, Sausage, Bacon, Ham, or Veggie (Broccoli, Mushrooms, Onions, Peppers) w/ Scrambled Eggs, Potatoes, Cheddar Cheese.</h3>
+        <h2>Breakfast Burrito</h2>
+          <h3>Scrambled Eggs, Sausage, Cheddar Cheese, and Homefries. Breakfast Sandwich with 2 Eggs & Cheese</h3>
+
+
+      <h1>Breakfast</h1>
+        <h2>Breakfast Pizza</h2>
+          <h3>Scrambled eggs, White American, Mozzarella and Cheddar cheese. </h3>
+          <h2>Breakfast Burrito Bowl</h2>
+          <h3>Choice of Plain, Sausage, Bacon, Ham, or Veggie (Broccoli, Mushrooms, Onions, Peppers) w/ Scrambled Eggs, Potatoes, Cheddar Cheese.</h3>
+        <h2>Breakfast Burrito</h2>
+          <h3>Scrambled Eggs, Sausage, Cheddar Cheese, and Homefries. Breakfast Sandwich with 2 Eggs & Cheese</h3>
+
+      <h1>Dinners</h1>
+        <h2>Stuffed Shells</h2>
+          <h3>Ricotta filled jumbo pasta shells with homemade sauce </h3>
+
+        <h2>Penne & Meatball</h2> 
+          <h3>Served with our homemade meatballs &sauce.</h3>
+
+        <h2>Gnocchi & Meatball </h2>
+          <h3>Served with our homemade meatballs & sauce.</h3>
+
+        <h2>Spaghetti & Meatball</h2>
+          <h3>Served with our homemade meatballs & sauce.</h3>
+
+      <h2>Ravioli</h2>
+        <h3>Cheese filled Raviolis with our homemade sauce. </h3>
+
+      <h2>Fish Fry</h2>
+        <h3>haddock filet, French fries, coleslaw and homemade roll. Homemade potato pasta & homemade meatballs. </h3>
+
+      <h2>Stuffed Rigatoni</h2>
+        <h3>Cheese filled Rigatoni with our homemade sauce. </h3>
+
+      <h1>Kids Menu</h1>
+
+        <h2>Kid Pizza Quesadilla</h2>
+        <h2>Kid Burger</h2> 
+        <h2>Kid Toasted Cheese</h2>
+        <h2>Kid Chicken Nuggets</h2>
+        <h2>Kid Ravioli</h2>
+        <h2>Kid Macaroni & Cheese</h2>
+        <h2>Kid Penne & Meatball</h2>
+        <h2>Kid Spaghetti & Meatball</h2>
+        <h2>Kid Ham or Kid Turkey Sub</h2>
+        <h2>Quesadillas</h2>
+
+
   </body>
 </html>
