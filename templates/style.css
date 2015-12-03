@@ -8,6 +8,7 @@
   width: 100%; /* full width */
   height: auto ; /* height of gallery */
   margin-right: 10px;
+  max-height: 500px ; 
 }
 
 .gallery-cell img {
