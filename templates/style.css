@@ -1,13 +1,24 @@
-@import
-url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100);
+@import url(https://fonts.googleapis.com/css?family=Hind);
+@import url(https://fonts.googleapis.com/css?family=Lora:700,400italic);
 
-@import
-url(https://fonts.googleapis.com/css?family=Arimo:400,700);
+
 
 /*body*/
+.gallery-cell {
+  width: 100%; /* full width */
+  height: auto ; /* height of gallery */
+  margin-right: 10px;
+}
+
+.gallery-cell img {
+  width: 100% ;
+}
+.gallery {
+margin-bottom: 50px ;
+}
 
 body {
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Hind', sans-serif;
   background: rgba(199,176,123,100);
 }
 
@@ -15,14 +26,15 @@ h1 {
   font-size: 1.5em;
   font-weight: bold;
   letter-spacing: 0px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Lora', serif;
   margin-top: .25em;
 }
 
 body {
-  font-family: 'Arimo';
+  font-family: 'Hind';
   background: rgba(84, 105, 124, 100);
   box-sizing: border-box; 
+  font-size: .9em;
 }
 
 h1 {
@@ -62,12 +74,57 @@ main {
 
 p {
   line-height: 1.5
-  font-family: 'Arimo';
 }
 
-img.src{
-  text-align: center;
+
+/*navigation*/
+
+nav {
+    display: table;
+    height: 87px;
+    width: 100%;
 }
+
+nav li {
+    display: table-cell;
+    height: 27px;
+    width: 16.666666667%; 
+    line-height: 27px;
+    text-align: center;
+    background: #ddd;
+    border-right: 1px solid #fff;
+    white-space: nowrap;
+    font-family:'Lora';
+  
+}​
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family:'Lora';
+
+}
+
+li {
+    display: inline;
+    float: left;
+    margin: auto;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #570326;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+
 
 /*Footer*/
 
@@ -101,14 +158,5 @@ footer {
   text-align: center;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
 
-li {
-    display: inline;
-}
 
