@@ -1,7 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Hind);
 @import url(https://fonts.googleapis.com/css?family=Lora:700,400italic);
 
-
+/*header*/
+header{
+  padding:2em;
+  background-color: white;
+}
 
 /*body*/
 .gallery-cell {
@@ -21,6 +25,12 @@ margin-bottom: 50px ;
 body {
   font-family: 'Hind', sans-serif;
   background: rgba(199,176,123,100);
+  font-family: 'Hind';
+  background: white;
+  box-sizing: border-box; 
+  font-size: .9em;
+  margin-left:4em;
+  margin-right:4em;
 }
 
 h1 {
@@ -31,25 +41,23 @@ h1 {
   margin-top: .25em;
 }
 
-body {
-  font-family: 'Hind';
-  background: rgba(84, 105, 124, 100);
-  box-sizing: border-box; 
-  font-size: .9em;
-}
 
 h1 {
   font-size: 2em;
   font-weight: normal;
-  font-family: garamond, georgia, serif;
+  font-family: 'Lora',garamond, georgia, serif;
   margin-top: .25em;
   color: rgba(87, 3, 38, 100);
+  text-align: center;
+
+
 }
 
 h2 {
   color: rgb(0, 38, 100);
   margin-top: 2em;
   margin-bottom: 0.5em;
+  padding-left: 2em;
 }
 
 header {
@@ -63,33 +71,38 @@ img {
   text-align: center;
 }
 
-main {
-  background-color: rgba(255, 255, 255, .95);
-  padding: 1.5em;
-  width: 90%;
-  margin: 0 auto;
-  border-radius: 5px;
-  max-width: 1500px;
-  box-shadow: 1px 1px 3px rgba: (0, 0, 0, .8);
-}
+
 
 p {
-  line-height: 1.5
+  line-height: 1.5;
+  margin:3.2em;
 }
 
 
 /*navigation*/
 
 nav {
-    display: table;
+    
     height: 87px;
+    
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family:'Lora';
+    display: table;
     width: 100%;
+
 }
 
 nav li {
     display: table-cell;
     height: 27px;
-    width: 16.666666667%; 
+    width: 16%; 
     line-height: 27px;
     text-align: center;
     background: #ddd;
@@ -99,19 +112,13 @@ nav li {
   
 }​
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    font-family:'Lora';
 
-}
 
 li {
     display: inline;
     float: left;
     margin: auto;
+    text-align: center;
 }
 
 li a {
@@ -120,6 +127,7 @@ li a {
     background-color: #570326;
     color: white;
     text-decoration: none;
+    text-align: center;
 
 }
 
@@ -155,8 +163,9 @@ a {
 }
 
 footer {
-  padding-bottom: 1em;
+  padding: 1em;
   text-align: center;
+  background-color: #54697C;
 }
 
 
