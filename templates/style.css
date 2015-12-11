@@ -1,3 +1,4 @@
+
 @import url(https://fonts.googleapis.com/css?family=Hind);
 @import url(https://fonts.googleapis.com/css?family=Lora:700,400italic);
 
@@ -7,9 +8,24 @@
 }
 /*header*/
 header{
-  padding:2em;
   background-color: white;
 }
+
+@media screen and (min-width: 800px){
+  header img{   
+    padding:2em;
+    text-align: center;
+    max-width: 700px;
+    text-align: center;
+}
+
+  }
+
+header img{
+  text-align: center;
+  padding: 1em;
+}
+
 
 /*body*/
 .gallery-cell {
@@ -33,9 +49,13 @@ body {
   background: white;
   box-sizing: border-box; 
   font-size: .9em;
-  margin-left:4em;
-  margin-right:4em;
+  padding-left:1em;
+  padding-right:1em;
+  max-width: 1560px;
+  margin: 0 auto;
+
 }
+
 
 h1 {
   font-weight: bold;
@@ -63,7 +83,7 @@ header {
 }
 
 img {
-  width: 500px;
+  max-width: 100%;
   margin-top: 1em;
   text-align: center;
 }
@@ -72,10 +92,13 @@ img {
 
 p {
   line-height: 1.5;
-  margin:3.2em;
+  margin:3.2em 0;
   font-size:1.1em;
 }
 
+main {
+  padding: 0 5%;
+}
 
 /*menu images*/
 
@@ -87,7 +110,7 @@ img.menu {
 
 @media screen and (min-width: 670px){
   img.menu {
-  width: 50%;
+  max-width: 50%;
   float: left;
   background: white;
 }
@@ -100,15 +123,13 @@ img.menu {
   float: left;
   background: white;
 }
-
-
-
-33%
-float left
+}
 
 .menucontainer {
-  width:90%;
   margin: 0 auto;
+  padding-bottom: 2em;
+  display: block;
+  float: left;
 }
 
 /*navigation*/
@@ -116,8 +137,9 @@ float left
 nav {
     
     height: 87px;
-    
+    margin: 0 5%;
     text-align: center;
+
 }
 
 ul {
@@ -141,6 +163,7 @@ nav li {
     border-right: 1px solid #fff;
     white-space: nowrap;
     font-family:'Lora';
+
   
 }​
 
@@ -151,6 +174,7 @@ li {
     float: left;
     margin: auto;
     text-align: center;
+
 }
 
 li a {
@@ -161,9 +185,38 @@ li a {
     text-decoration: none;
     text-align: center;
 
+
+}
+
+@media screen and (max-width: 460px){
+    nav{
+      height: auto;
+    }
+    nav ul{
+      display: block;
+      -webkit-columns: 50px 2;
+      -moz-columns: 50px 2;
+      columns: 50px 2;
+    }
+    nav li{
+      display: block;
+      height: auto;
+      margin-bottom: .5em;
+      width: auto;
+    }
+
 }
 
 
+a {
+  color: rgba(87, 3, 38, 100);
+}
+/*@media screen and (min-width: 670px){
+  nav {   
+
+    padding: 0 auto;
+  }
+}*/
 
 
 
@@ -189,15 +242,17 @@ dd {
   line-height: 1.5;
 }
 
-a {
-  color: rgba(87, 3, 38, 100);
+footer a {
+  color: white;
   text-align: center;
+
 }
 
 footer {
   padding: 1em;
   text-align: center;
   background-color: #54697C;
+  clear:left;
 }
 
 
