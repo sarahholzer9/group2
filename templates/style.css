@@ -113,6 +113,7 @@ img.menu {
   max-width: 50%;
   float: left;
   background: white;
+  padding:.5em;
 }
 
 }
@@ -122,6 +123,7 @@ img.menu {
   width: 33%;
   float: left;
   background: white;
+  padding:1em;
 }
 }
 
