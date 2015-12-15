@@ -10,15 +10,6 @@
 header{
   background-color: white;
 }
-
-@media screen and (min-width: 800px){
-  header img{   
-    padding:2em;
-    text-align: center;
-    max-width: 700px;
-    text-align: center;
-}
-
 .summit{
   clear: left;
   padding:1em;
@@ -28,7 +19,13 @@ header{
   font-weight: bold;
   font-size: 1em;
 }
-
+@media screen and (min-width: 800px){
+  header img{   
+    padding:2em;
+    text-align: center;
+    max-width: 700px;
+    text-align: center;
+}
 
   }
 
@@ -160,28 +157,12 @@ img.menu {
   padding:.5em;
 }
 .summit{
-  clear: left;
-  padding:1em;
-  text-align:center;
-  font-family: 'Lora', garamond, georgia, serif; 
-  color: rgba(199, 176, 123, 100);
-  font-weight: bold;
+
   font-size: 2em;
 }
-
 }
 
-
-@media screen and (min-width: 400px){
-  .summit{
-  clear: left;
-  padding:1em;
-  text-align:center;
-  font-family: 'Lora', garamond, georgia, serif; 
-  color: rgba(199, 176, 123, 100);
-  font-weight: bold;
-  font-size: 1em;
-}
+  
 
 
 @media screen and (min-width: 1000px){
@@ -193,12 +174,7 @@ img.menu {
 }
 
 .summit{
-  clear: left;
-  padding:1em;
-  text-align:center;
-  font-family: 'Lora', garamond, georgia, serif; 
-  color: rgba(199, 176, 123, 100);
-  font-weight: bold;
+
   font-size: 1.75em;
 }
 
