@@ -1,0 +1,313 @@
+
+@import url(https://fonts.googleapis.com/css?family=Hind);
+@import url(https://fonts.googleapis.com/css?family=Lora:700,400italic);
+
+
+*{
+  box-sizing:border-box;
+}
+/*header*/
+header{
+  background-color: white;
+}
+
+@media screen and (min-width: 800px){
+  header img{   
+    padding:2em;
+    text-align: center;
+    max-width: 700px;
+    text-align: center;
+}
+
+  }
+
+header img{
+  text-align: center;
+  padding: 1em;
+}
+
+
+/*body*/
+.gallery-cell {
+  width: 100%; /* full width */
+  height: auto ; /* height of gallery */
+  margin-right: 10px;
+  max-height: 500px ; 
+}
+
+.gallery-cell img {
+  width: 100% ;
+}
+.gallery {
+margin-bottom: 50px ;
+}
+
+body {
+  font-family: 'Hind', sans-serif;
+  background: rgba(199,176,123,100);
+  font-family: 'Hind';
+  background: white;
+  box-sizing: border-box; 
+  font-size: .9em;
+  padding-left:1em;
+  padding-right:1em;
+  max-width: 1560px;
+  margin: 0 auto;
+
+}
+
+
+h1 {
+  font-weight: bold;
+  letter-spacing: 0px;
+  margin-top: .25em;
+  font-size: 2em;
+  font-weight: normal;
+  font-family: 'Lora',garamond, georgia, serif;
+  color: rgba(87, 3, 38, 100);
+  text-align: left;
+
+}
+
+
+h2 {
+  color: rgb(0, 38, 100);
+  font-family:'Lora', garamond, georgia, serif;
+  font-size: 1.3em;
+  /*padding: .5em;*/
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1.5px;
+}
+
+article {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  margin-top: 1em;
+  text-align: center;
+}
+
+
+
+p {
+  line-height: 1.5;
+  margin:0, 0, 3.2em 0;
+  font-size:1.1em;
+}
+
+main {
+  padding: 0 5%;
+}
+
+
+
+/*menu images*/
+
+img.menu {
+  width: 100%;
+  text-align: center;
+
+}
+
+@media screen and (min-width: 670px){
+  img.menu {
+  max-width: 50%;
+  float: left;
+  background: white;
+  padding:.5em;
+}
+
+}
+
+@media screen and (min-width: 1000px){
+  img.menu {
+  width: 33%;
+  float: left;
+  background: white;
+  padding:1em;
+}
+
+.summit{
+  clear: left;
+}
+
+  .column{
+  width:33%;
+  float: left;
+  padding: 1em;
+  }
+}
+
+.menucontainer {
+  margin: 0 auto;
+  padding-bottom: 2em;
+  display: block;
+  float: left;
+}
+
+
+
+/*navigation*/
+
+nav {
+    
+    height: 87px;
+    margin: 0 5%;
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family:'Lora';
+    display: table;
+    width: 100%;
+
+}
+
+nav li {
+    display: table-cell;
+    height: 27px;
+    width: 16%; 
+    line-height: 27px;
+    text-align: center;
+    background: #ddd;
+    border-right: 1px solid #fff;
+    white-space: nowrap;
+    font-family:'Lora';
+
+  
+}​
+
+
+
+li {
+    display: inline;
+    float: left;
+    margin: auto;
+    text-align: center;
+
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #570326;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+
+}
+
+@media screen and (max-width: 460px){
+    nav{
+      height: auto;
+    }
+    nav ul{
+      display: block;
+      -webkit-columns: 50px 2;
+      -moz-columns: 50px 2;
+      columns: 50px 2;
+    }
+    nav li{
+      display: block;
+      height: auto;
+      margin-bottom: .5em;
+      width: auto;
+    }
+
+}
+
+
+a {
+  color: rgba(87, 3, 38, 100);
+}
+/*@media screen and (min-width: 670px){
+  nav {   
+
+    padding: 0 auto;
+  }
+}*/
+
+
+
+/*Footer*/
+
+footer h2 {
+  color: #eaab00;
+}
+
+dt {
+  color: rgba(199, 176, 123, 100);
+  font-size: .9em;
+  margin-bottom: .5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+dd {
+  color: white;
+  margin-left: 0;
+  margin-bottom: 1em;
+  font-size: .9em;
+  line-height: 1.5;
+}
+
+footer a {
+  color: white;
+  text-align: center;
+
+}
+
+footer {
+  padding: 1em;
+  text-align: center;
+  background-color: #54697C;
+  clear:left;
+}
+
+
+/*pattern lib colors*/
+
+.swatch {
+width: 70px;
+height: 70px;
+display: inline-block;
+margin: 1em 1.5em;
+
+}
+
+.swatch-gold {
+  background-color: #C7B07B;
+}
+
+.swatch-blue {
+  background-color: #54697C;
+}
+
+.swatch-purple {
+  background-color: #570326;
+}
+
+

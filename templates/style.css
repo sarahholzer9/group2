@@ -19,6 +19,17 @@ header{
     text-align: center;
 }
 
+.summit{
+  clear: left;
+  padding:1em;
+  text-align:center;
+  font-family: 'Lora', garamond, georgia, serif; 
+  color: rgba(199, 176, 123, 100);
+  font-weight: bold;
+  font-size: 1em;
+}
+
+
   }
 
 header img{
@@ -72,9 +83,45 @@ h1 {
 
 h2 {
   color: rgb(0, 38, 100);
-  margin-top: 2em;
-  margin-bottom: 0.5em;
-  padding-left: 2em;
+  font-family:'Lora', garamond, georgia, serif;
+  font-size: 1.3em;
+  /*padding: .5em;*/
+}
+
+h3 {
+  font-family:'Hind',sans-serif;
+  font-size: 2em;
+
+}
+
+h4{
+  font-family: 'Lora', garamond, georgia, serif;
+  font-size: 2em;
+}
+
+a {
+  color: rgb(0, 38, 100);
+  font-family:'Hind', sans-serif;
+  font-size: 1em;
+  text-decoration: underline;
+
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1.5px;
+    color: #54697C;
+}
+
+article {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
 }
 
 header {
@@ -92,13 +139,15 @@ img {
 
 p {
   line-height: 1.5;
-  margin:3.2em 0;
+  margin:0, 0, 3.2em 0;
   font-size:1.1em;
 }
 
 main {
   padding: 0 5%;
 }
+
+
 
 /*menu images*/
 
@@ -115,8 +164,28 @@ img.menu {
   background: white;
   padding:.5em;
 }
+.summit{
+  clear: left;
+  padding:1em;
+  text-align:center;
+  font-family: 'Lora', garamond, georgia, serif; 
+  color: rgba(199, 176, 123, 100);
+  font-weight: bold;
+  font-size: 2em;
+}
 
 }
+@media screen and (min-width: 400px){
+  .summit{
+  clear: left;
+  padding:1em;
+  text-align:center;
+  font-family: 'Lora', garamond, georgia, serif; 
+  color: rgba(199, 176, 123, 100);
+  font-weight: bold;
+  font-size: 1em;
+}
+
 
 @media screen and (min-width: 1000px){
   img.menu {
@@ -125,6 +194,25 @@ img.menu {
   background: white;
   padding:1em;
 }
+
+.summit{
+  clear: left;
+  padding:1em;
+  text-align:center;
+  font-family: 'Lora', garamond, georgia, serif; 
+  color: rgba(199, 176, 123, 100);
+  font-weight: bold;
+  font-size: 1.75em;
+}
+
+
+
+
+  .column{
+  width:33%;
+  float: left;
+  padding: 1em;
+  }
 }
 
 .menucontainer {
@@ -133,6 +221,22 @@ img.menu {
   display: block;
   float: left;
 }
+
+/*.column h2{
+  text-align: center;
+}*/
+
+/*.summit{
+  clear: left;
+  padding:1em;
+  text-align:center;
+  font-family: 'Lora', garamond, georgia, serif; 
+  color: rgba(199, 176, 123, 100);
+  font-weight: bold;
+  font-size: 1.75em;
+}*/
+
+
 
 /*navigation*/
 
@@ -257,5 +361,36 @@ footer {
   clear:left;
 }
 
+
+.centercontent{
+  text-align: center;
+}
+
+/*pattern lib colors*/
+
+.swatch {
+width: 70px;
+height: 70px;
+display: inline-block;
+margin: 1em 1.5em;
+text-align:center;
+
+}
+
+.swatch-gold {
+  background-color: #C7B07B;
+}
+
+.swatch-blue {
+  background-color: #54697C;
+}
+
+.swatch-purple {
+  background-color: #570326;
+}
+
+.centerswatches{
+  text-align: center;
+}
 
 
