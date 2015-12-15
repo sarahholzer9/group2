@@ -118,11 +118,6 @@ hr {
     color: #54697C;
 }
 
-article {
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-}
 
 header {
   text-align: center;
@@ -175,6 +170,8 @@ img.menu {
 }
 
 }
+
+
 @media screen and (min-width: 400px){
   .summit{
   clear: left;
@@ -222,19 +219,6 @@ img.menu {
   float: left;
 }
 
-/*.column h2{
-  text-align: center;
-}*/
-
-/*.summit{
-  clear: left;
-  padding:1em;
-  text-align:center;
-  font-family: 'Lora', garamond, georgia, serif; 
-  color: rgba(199, 176, 123, 100);
-  font-weight: bold;
-  font-size: 1.75em;
-}*/
 
 
 
@@ -317,13 +301,6 @@ li a {
 a {
   color: rgba(87, 3, 38, 100);
 }
-/*@media screen and (min-width: 670px){
-  nav {   
-
-    padding: 0 auto;
-  }
-}*/
-
 
 
 /*Footer*/
@@ -362,9 +339,7 @@ footer {
 }
 
 
-.centercontent{
-  text-align: center;
-}
+
 
 /*pattern lib colors*/
 
@@ -393,4 +368,6 @@ text-align:center;
   text-align: center;
 }
 
-
+.centercontent{
+  text-align: center;
+}
